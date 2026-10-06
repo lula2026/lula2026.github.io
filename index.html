@@ -2,33 +2,50 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0C0C0C" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; upgrade-insecure-requests" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta name="robots" content="index, follow" />
-  <title>Lula Hub 2026</title>
+  <title>Lula Hub 2026 · A virada é no 2º turno</title>
   <meta name="description" content="Hub independente de argumentos, checagens e notícias para o 2º turno Lula × Flávio Bolsonaro (25/10/2026)" />
-  <link rel="stylesheet" href="assets/hub.css?v=ds1" />
+  <link rel="stylesheet" href="assets/hub.css?v=ds6" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <div class="brand">
-        <div>
-          <h1><span class="star">★</span> Lula Hub 2026</h1>
-          <p class="sub">Argumentos, checagens e notícias · 2º turno Lula × Flávio Bolsonaro · hub independente, não oficial</p>
-        </div>
-        <div class="brand-right">
-          <span class="countdown"><span class="dot"></span><span id="countdown">2º turno · 25/10</span></span>
-          <button class="icon-btn" id="theme" aria-label="Alternar tema">◐</button>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-top">
+        <span class="brand-mark"><span class="star" aria-hidden="true">★</span> Lula Hub</span>
+        <span class="hero-tag">Não oficial</span>
+        <button class="icon-btn" id="theme" type="button" aria-label="Alternar tema claro/escuro">◐</button>
+      </div>
+      <div class="hero-grid">
+        <h1 class="hero-title">
+          <span class="ht-kicker">2º turno · 25 de outubro</span>
+          <span class="ht-lula">Lula</span>
+          <span class="ht-virada">A virada é</span>
+          <span class="ht-virada ht-hl">no 2º turno</span>
+        </h1>
+        <div class="hero-count" role="status" aria-live="polite">
+          <span class="cd-num" id="cd-num">25/10</span>
+          <span class="cd-unit" id="cd-unit">dias</span>
+          <span class="cd-label" id="cd-label">para virar o jogo</span>
         </div>
       </div>
-      <div class="tools">
-        <input id="q" type="search" placeholder="Buscar em todas as abas (ex.: 6x1, urna, Queiroz)…" aria-label="Buscar" />
-      </div>
-      <nav class="tabs" role="tablist" aria-label="Seções" id="tabs"></nav>
+      <p class="hero-sub">Argumentos, checagens e notícias com fonte para conversar com quem ainda não decidiu.</p>
     </div>
   </header>
+
+  <nav class="tabbar" aria-label="Seções">
+    <div class="tabbar-inner"><div class="tabs" role="tablist" id="tabs"></div></div>
+  </nav>
+
+  <div class="tools-wrap">
+    <div class="tools">
+      <input id="q" type="search" inputmode="search" placeholder="Buscar nos cards (ex.: 6x1, urna, Queiroz)…" aria-label="Buscar nos cards" />
+    </div>
+  </div>
 
   <main id="main"></main>
 
@@ -36,7 +53,7 @@
     <article class="mv">
       <header class="mv-cover">
         <p class="mv-kicker">Ebook · Segundo turno 2026</p>
-        <h3 class="mv-title">Manual de virada</h3>
+        <h3 class="mv-title">Manual da Virada</h3>
         <p class="mv-lead">Como a campanha do presidente Lula pode vencer a extrema direita no 2º turno.</p>
         <p class="mv-sub">Cinco carrosséis, três frentes, um plano: <b>descer do palanque, mostrar o que chegou na mesa e conversar todo dia.</b></p>
         <p class="mv-meta">Reunido a partir de posts de <a href="https://www.instagram.com/socialistadeiphone/" target="_blank" rel="noopener noreferrer">@socialistadeiphone</a>. Nada aqui é dado novo: cada ideia vem de um post e cada bloco cita a fonte (F1 a F6, lista no fim).</p>
@@ -54,7 +71,7 @@
       </section>
 
       <section class="mv-block" id="mv-passos">
-        <p class="mv-kicker">Parte 1 · Manual de virada</p>
+        <p class="mv-kicker">Parte 1 · Manual da Virada</p>
         <h4>Os 3 passos</h4>
         <ol class="mv-steps">
           <li><b>Desça do palanque.</b> Ser do povo de verdade, não teatro de campanha. Ouvir a raiva do bairro todo dia e responder na língua de quem pega ônibus lotado. <span class="mv-tag">Menos discurso, mais escuta.</span></li>
@@ -205,7 +222,7 @@
         <h4>Fontes completas</h4>
         <p>Todo o conteúdo vem de carrosséis do perfil <a href="https://www.instagram.com/socialistadeiphone/" target="_blank" rel="noopener noreferrer">@socialistadeiphone</a> no Instagram.</p>
         <dl class="mv-fontes">
-          <dt>F1</dt><dd><b>3 passos pra esquerda vencer a extrema direita no 2º turno</b> (Manual de virada). 6 cards.</dd>
+          <dt>F1</dt><dd><b>3 passos pra esquerda vencer a extrema direita no 2º turno</b> (Manual da Virada). 6 cards.</dd>
           <dt>F2</dt><dd><b>Matriz de combate à extrema direita</b> (Manual de campo, 3 frentes). 5 cards.</dd>
           <dt>F3</dt><dd><b>Não morde a isca</b> (Toolkit 01/15, Vol. 1: O manual deles). 7 cards.</dd>
           <dt>F4</dt><dd><b>Feijão no arroz</b> (Toolkit 03/15, Vol. 2: Comunicação digital). 7 cards.</dd>
@@ -232,6 +249,6 @@
   <footer>Hub independente · sem vínculo com partido ou campanha oficial · todo card traz link para a fonte</footer>
   <div class="toast" id="toast" role="status"></div>
 
-  <script src="assets/hub.js?v=ds1"></script>
+  <script src="assets/hub.js?v=ds2"></script>
 </body>
 </html>

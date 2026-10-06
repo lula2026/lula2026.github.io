@@ -1,16 +1,16 @@
     const SECTIONS = [
+      { id: "manual",      label: "Manual da Virada", title: "Manual da Virada", desc: "Como virar votos no 2º turno: táticas de comunicação reunidas de cinco carrosséis de @socialistadeiphone.", static: true },
       { id: "hoje",        label: "Hoje",        title: "Hoje: digest",           desc: "O que importa nas últimas 24–48h para a campanha." },
       { id: "noticias",    label: "Notícias",    title: "Notícias",               desc: "Apoios, pesquisas, agenda e bastidores, sempre com fonte jornalística." },
       { id: "entregas",    label: "Entregas",    title: "O que o governo fez",    desc: "Realizações com número e fonte. É a base do argumento \"comparar projetos\"." },
       { id: "checagem",    label: "Checagem",    title: "Boato × Fato",           desc: "Mentiras que circulam contra Lula e contra as urnas, já desmentidas por agências de checagem." },
       { id: "contraponto", label: "Contraponto", title: "Contraponto Flávio",     desc: "Fatos documentados sobre o adversário. Só fatos com fonte, sem adjetivo e sem acusação sem prova." },
       { id: "virar",       label: "Virar voto",  title: "Virar voto",             desc: "Roteiros curtos para conversar com indecisos, eleitores de Cury, Renan e Caiado e quem não foi votar no 1º turno." },
-      { id: "manual",      label: "Manual de Virada", title: "Manual de Virada 2026", desc: "Táticas de comunicação para o 2º turno, reunidas de cinco carrosséis de @socialistadeiphone.", static: true },
       { id: "comentaristas", label: "Comentaristas", title: "Comentaristas",      desc: "Análises e cortes de jornalistas e influenciadores progressistas." },
       { id: "arquivo",     label: "Arquivo",     title: "Arquivo",                desc: "Cards antigos que ainda podem ser úteis." },
     ];
 
-    const state = { data: {}, active: "hoje", q: "", tag: null };
+    const state = { data: {}, active: "manual", q: "", tag: null };
     // Segurança: não roda dentro de iframe de terceiros (anti-clickjacking).
     if (window.top !== window.self) { try { window.top.location = window.self.location.href; } catch { document.documentElement.innerHTML = ""; } }
 
@@ -29,7 +29,11 @@
     function countdown() {
       const target = new Date("2026-10-25T08:00:00-03:00");
       const days = Math.ceil((target - new Date()) / 86400000);
-      $("#countdown").textContent = days > 1 ? `2º turno em ${days} dias · 25/10` : days === 1 ? "2º turno é amanhã" : days === 0 ? "Hoje é dia de votar" : "2º turno · 25/10";
+      const [num, unit, label] = days > 1 ? [String(days), "dias", "para virar o jogo"]
+        : days === 1 ? ["1", "dia", "amanhã é a virada"]
+        : days === 0 ? ["Hoje", "", "é dia de votar"]
+        : ["25/10", "", "2º turno"];
+      $("#cd-num").textContent = num; $("#cd-unit").textContent = unit; $("#cd-label").textContent = label;
     }
 
     function buildShell() {
@@ -101,7 +105,7 @@
       state.active = id;
       document.querySelectorAll(".tab").forEach((t) => { const on = t.dataset.section === id; t.classList.toggle("active", on); t.setAttribute("aria-selected", on); });
       document.querySelectorAll(".panel").forEach((p) => p.classList.toggle("active", p.id === `panel-${id}`));
-      try { localStorage.setItem("hub-lula-tab", id); } catch {}
+      document.body.dataset.tab = id;
       if (location.hash !== `#${id}`) history.replaceState(null, "", `#${id}`);
     }
 
@@ -138,14 +142,19 @@
     initTheme();
     countdown();
     {
-      let saved = location.hash.slice(1);
-      if (!SECTIONS.some((s) => s.id === saved)) { try { saved = localStorage.getItem("hub-lula-tab"); } catch {} }
-      if (SECTIONS.some((s) => s.id === saved)) activate(saved);
+      const saved = location.hash.slice(1);
+      activate(SECTIONS.some((s) => s.id === saved) ? saved : "manual");
     }
 
     document.addEventListener("click", async (e) => {
       const tab = e.target.closest(".tab");
-      if (tab) { activate(tab.dataset.section); return; }
+      if (tab) {
+        activate(tab.dataset.section);
+        tab.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+        const top = document.querySelector(".tabbar").offsetTop;
+        if (window.scrollY > top) window.scrollTo({ top, behavior: "smooth" });
+        return;
+      }
       const tag = e.target.closest("[data-tag]");
       if (tag) { state.tag = state.tag === tag.dataset.tag ? null : tag.dataset.tag; renderAll(); return; }
       const copy = e.target.closest("[data-copy]");
