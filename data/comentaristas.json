@@ -49,5 +49,47 @@
       "DCM",
       "análise-diária"
     ]
+  },
+  {
+    "id": "com-brasil-de-fato-lula-velho-testamento",
+    "date": "2026-10-04",
+    "source": "Brasil de Fato",
+    "title": "Analistas: 2º turno exigirá 'Lula do Velho Testamento'",
+    "summary": "Reportagem com os cientistas políticos Paulo Roberto de Sousa e Paulo Niccoli Ramirez, publicada na noite do 1º turno. Para eles, a extrema direita saiu fortalecida, inclusive no Congresso, e Lula precisa de uma campanha de 2º turno mais combativa e de enfrentamento direto.",
+    "url": "https://www.brasildefato.com.br/2026/10/04/extrema-direita-se-consolida-como-hegemonia-e-2o-turno-exigira-lula-do-velho-testamento-avaliam-analistas/",
+    "tags": [
+      "segundo-turno",
+      "analise",
+      "brasil-de-fato",
+      "estrategia"
+    ]
+  },
+  {
+    "id": "com-cartacapital-safatle-melancolia",
+    "date": "2026-10-05",
+    "source": "CartaCapital",
+    "title": "Safatle: Lula pode virar no 2º turno, mas precisa tirar o eleitor da melancolia",
+    "summary": "Entrevista, em texto e vídeo, com o filósofo Vladimir Safatle. Ele lembra que Boric, no Chile, perdeu o 1º turno e venceu o 2º. Para ele, a mobilização depende de bandeiras concretas, como reverter a reforma trabalhista, e de militância porta a porta, e não apenas do medo do adversário.",
+    "url": "https://www.cartacapital.com.br/politica/lula-pode-virar-no-2o-turno-mas-tem-de-tirar-seu-eleitor-da-melancolia-avalia-safatle/",
+    "tags": [
+      "segundo-turno",
+      "safatle",
+      "cartacapital",
+      "mobilizacao"
+    ]
+  },
+  {
+    "id": "com-forum-lavareda-abstencao",
+    "date": "2026-10-06",
+    "source": "Revista Fórum",
+    "title": "Lavareda: Flávio não cresceu; Lula 'perdeu para a abstenção'",
+    "summary": "O cientista político Antonio Lavareda diz que a vantagem de Flávio no 1º turno foi uma 'ilusão de ótica'. Pela leitura dele, Flávio ficou perto do que as pesquisas projetavam, e Lula perdeu terreno sobretudo porque parte dos seus eleitores não foi votar, não porque os votos migraram para o adversário. É um argumento para focar o 2º turno em levar o eleitor às urnas.",
+    "url": "https://revistaforum.com.br/politica/lula-abstencao-flavio-lavareda/",
+    "tags": [
+      "segundo-turno",
+      "abstencao",
+      "lavareda",
+      "revista-forum"
+    ]
   }
 ]

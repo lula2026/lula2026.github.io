@@ -41,5 +41,83 @@
       "PIB",
       "precisão"
     ]
+  },
+  {
+    "id": "chk-urnas-interromperam-apuracao",
+    "date": "2026-10-06",
+    "source": "Aos Fatos",
+    "verdict": "Falso",
+    "title": "\"Urnas eletrônicas interromperam a apuração de votos no primeiro turno\"",
+    "summary": "O Aos Fatos mostrou que a falha técnica de 4 de outubro, por volta das 19h14, afetou só a página que exibia na internet o resultado nacional da eleição presidencial. Os resultados por estado continuaram sendo atualizados, e a transmissão e a totalização dos votos não pararam. O problema foi resolvido às 20h04. O boato teve pelo menos 945 mil visualizações no X.",
+    "url": "https://www.aosfatos.org/noticias/urnas-apuracao-votos-primeiro-turno/",
+    "tags": [
+      "urnas",
+      "apuracao",
+      "primeiro-turno",
+      "tse"
+    ],
+    "share": "É FALSO que as urnas interromperam a apuração no 1º turno. A falha afetou só a página de divulgação do resultado nacional, e a totalização continuou (Aos Fatos)."
+  },
+  {
+    "id": "chk-fraude-votos-senadores-pl-flavio",
+    "date": "2026-10-05",
+    "source": "Aos Fatos",
+    "verdict": "Falso",
+    "title": "\"Diferença entre os votos dos candidatos do PL ao Senado e os de Flávio prova fraude\"",
+    "summary": "O Aos Fatos explicou que cada eleitor podia votar em dois candidatos ao Senado, o que dobra o total de votos em disputa nessa eleição (317,4 milhões, contra 158,7 milhões para presidente). Além disso, nem todos os estados tinham dois candidatos do PL. Em eleições anteriores os totais também nunca coincidiram entre cargos: em 2022, Bolsonaro teve 12,2 milhões de votos em São Paulo e seu candidato ao Senado, 10,7 milhões.",
+    "url": "https://www.aosfatos.org/noticias/votos-senadores-pl-flavio-fraude/",
+    "tags": [
+      "fraude",
+      "urnas",
+      "senado",
+      "primeiro-turno"
+    ],
+    "share": "É FALSO que a diferença entre os votos do PL ao Senado e os de Flávio indique fraude. Cada eleitor votou em dois senadores (Aos Fatos)."
+  },
+  {
+    "id": "chk-ministra-tse-mencoes-lula-debate",
+    "date": "2026-10-02",
+    "source": "Aos Fatos",
+    "verdict": "Falso",
+    "title": "\"Ministra do TSE proibiu menções a Lula no debate da Globo\"",
+    "summary": "O Aos Fatos verificou que a decisão da ministra Estela Aranha impediu que o púlpito vazio de Lula fosse exibido em destaque e que fossem feitas perguntas diretas a candidatos ausentes. A decisão não proibiu referências nem críticas ao presidente. As publicações enganosas somaram mais de 400 mil visualizações.",
+    "url": "https://www.aosfatos.org/noticias/ministra-tse-lula-debate-globo/",
+    "tags": [
+      "tse",
+      "debate",
+      "lula"
+    ],
+    "share": "É FALSO que o TSE proibiu menções a Lula no debate da Globo. A decisão só vetou perguntas dirigidas a candidatos ausentes (Aos Fatos)."
+  },
+  {
+    "id": "chk-hackers-invadiram-urnas",
+    "date": "2026-09-08",
+    "source": "Aos Fatos",
+    "verdict": "Falso",
+    "title": "\"Hackers invadiram as urnas eletrônicas em todos os 35 planos de ataque do teste do TSE\"",
+    "summary": "O Aos Fatos mostrou que, dos 35 planos de ataque inscritos no Teste Público de Segurança, só 29 foram executados. Segundo o TSE, nenhum deles permitiu alterar votos ou resultados, quebrar o sigilo do voto ou comprometer o processo eleitoral. O teste é um exercício controlado, e as vulnerabilidades encontradas foram corrigidas e validadas em maio de 2026.",
+    "url": "https://www.aosfatos.org/noticias/hackers-urnas-eletronicas-teste-seguranca/",
+    "tags": [
+      "urnas",
+      "seguranca",
+      "tse"
+    ],
+    "share": "É FALSO que hackers invadiram as urnas no teste do TSE. Nenhum ataque alterou votos ou resultados (Aos Fatos)."
+  },
+  {
+    "id": "chk-pf-codigo-fonte-lula-36",
+    "date": "2026-06-02",
+    "source": "Lupa",
+    "verdict": "Falso",
+    "title": "\"PF abriu código-fonte e revelou que Lula teve 36% dos votos em 2022\"",
+    "summary": "A Lupa verificou que a Polícia Federal negou as informações e que não há registro de nenhuma operação da PF que tenha concluído haver fraude eleitoral. Os dados oficiais do TSE mostram que Lula foi eleito em 2022 com 50,83% dos votos válidos no segundo turno. Missões de observação nacionais e internacionais atestaram a segurança do sistema eleitoral.",
+    "url": "https://www.agencialupa.org/verificacao/2026/06/02/e-falso-que-pf-abriu-codigo-fonte-e-revelou-que-lula-teve-36-dos-votos-em-2022/",
+    "tags": [
+      "urnas",
+      "fraude",
+      "lula",
+      "policia-federal"
+    ],
+    "share": "É FALSO que a PF revelou que Lula teve 36% dos votos em 2022. A PF negou, e o TSE registra 50,83% dos votos válidos (Lupa)."
   }
 ]

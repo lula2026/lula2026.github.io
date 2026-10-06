@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "id": "arq-pt-confirma-candidatura",
+    "date": "2026-08-03",
+    "source": "BBC News Brasil (via O Povo)",
+    "title": "PT confirma Lula à reeleição com Alckmin de vice",
+    "summary": "Em 2 de agosto de 2026, o PT oficializou a candidatura de Lula à reeleição, com Geraldo Alckmin (PSB) como vice. Segundo a BBC, Flávio Bolsonaro (PL) lançou a candidatura sem vice e sem coligação partidária. O calendário previa convenções até 5/8, registro até 15/8, 1º turno em 4/10 e 2º turno em 25/10.",
+    "url": "https://www.opovo.com.br/agencia/bbc/2026/08/03/pt-confirma-candidatura-de-lula-a-reeleicao-quem-disputa-a-presidencia-em-2026.html",
+    "tags": [
+      "candidatura",
+      "convencao",
+      "alckmin",
+      "calendario-eleitoral"
+    ]
+  },
+  {
+    "id": "arq-plano-governo-lula-tse",
+    "date": "2026-08-08",
+    "source": "Congresso em Foco",
+    "title": "PT registra no TSE o plano de governo de Lula, com 13 diretrizes",
+    "summary": "O plano registrado no TSE prevê jornada de 40 horas semanais sem redução de salário (fim da escala 6x1), salário mínimo com ganho acima da inflação e um Ministério da Segurança Pública. Também traz a meta de 80% das crianças alfabetizadas na idade certa, a ampliação da escola em tempo integral e a digitalização do SUS. A íntegra está no DivulgaCandContas do TSE.",
+    "url": "https://congressoemfoco.com.br/noticia/121121/pt-registra-novo-plano-de-governo-de-lula-no-tse-veja-a-integra",
+    "tags": [
+      "plano-de-governo",
+      "tse",
+      "propostas",
+      "6x1"
+    ]
+  },
+  {
+    "id": "arq-hugo-motta-apoio",
+    "date": "2026-08-11",
+    "source": "Brasil de Fato",
+    "title": "Hugo Motta, presidente da Câmara, declara apoio à reeleição de Lula",
+    "summary": "Em 10 de agosto, em João Pessoa, o presidente da Câmara, Hugo Motta (Republicanos-PB), anunciou apoio a Lula. Ele disse que o projeto do presidente 'converge com o que a gente acha que é o melhor para o país'. O Republicanos ficou neutro na disputa nacional e liberou os diretórios estaduais, o que frustrou a busca de Flávio por alianças.",
+    "url": "https://www.brasildefato.com.br/2026/08/11/hugo-motta-presidente-da-camara-declara-apoio-a-lula-na-paraiba-o-melhor-para-o-pais/",
+    "tags": [
+      "apoios",
+      "hugo-motta",
+      "republicanos",
+      "camara"
+    ]
+  },
+  {
+    "id": "arq-datafolha-julho-48-43",
+    "date": "2026-07-25",
+    "source": "Movimento Econômico",
+    "title": "Datafolha de julho: Lula 48% x Flávio 43% no 2º turno",
+    "summary": "Na pesquisa Datafolha de 22 e 23 de julho (2.004 entrevistas, margem de 2 pontos), Lula tinha 48% contra 43% de Flávio num 2º turno. A rejeição era de 48% para Flávio e 46% para Lula. Entre as mulheres, Lula tinha 50% e Flávio, 40%.",
+    "url": "https://movimentoeconomico.com.br/politica/2026/07/25/datafolha-com-48-lula-lidera-cenario-de-segundo-turno-contra-flavio/",
+    "tags": [
+      "pesquisa",
+      "datafolha",
+      "segundo-turno",
+      "rejeicao"
+    ]
+  },
+  {
+    "id": "arq-datafolha-setembro-46-44",
+    "date": "2026-09-17",
+    "source": "Brasil de Fato",
+    "title": "Datafolha de setembro: Lula 39% x 36% no 1º turno e 46% x 44% no 2º",
+    "summary": "Pesquisa Datafolha de 15 e 16 de setembro, com 2.002 entrevistas, margem de 2 pontos e registro BR-04029/2026 no TSE. Lula tinha 39% e Flávio 36% no 1º turno. No 2º turno, 46% a 44%, empate técnico no limite da margem.",
+    "url": "https://www.brasildefato.com.br/2026/09/17/pesquisa-datafolha-aponta-estabilidade-e-lula-a-frente-de-flavio-bolsonaro-no-2o-turno/",
+    "tags": [
+      "pesquisa",
+      "datafolha",
+      "primeiro-turno",
+      "segundo-turno"
+    ]
+  },
+  {
+    "id": "arq-isencao-ir-5-mil",
+    "date": "2025-11-27",
+    "source": "Agência Senado",
+    "title": "Sancionada isenção do IR para quem ganha até R$ 5 mil por mês",
+    "summary": "A Lei 15.270/2025, sancionada por Lula em 26 de novembro de 2025, isenta do Imposto de Renda quem ganha até R$ 5 mil por mês a partir de janeiro de 2026 e dá desconto para quem ganha até R$ 7.350. São mais de 15 milhões de beneficiados: cerca de 10 milhões deixam de pagar e 5 milhões pagam menos. A compensação vem da tributação mínima de cerca de 140 mil pessoas com renda acima de R$ 600 mil por ano. O Senado aprovou o projeto por unanimidade em 5/11/2025.",
+    "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/sancionada-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-por-mes",
+    "tags": [
+      "imposto-de-renda",
+      "entregas",
+      "justica-tributaria",
+      "lei-15270"
+    ]
+  }
+]

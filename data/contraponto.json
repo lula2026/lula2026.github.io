@@ -25,5 +25,63 @@
       "desinformação",
       "Master"
     ]
+  },
+  {
+    "id": "ctp-patrimonio-tse-2026",
+    "date": "2026-08-13",
+    "source": "Poder360",
+    "title": "Patrimônio declarado por Flávio ao TSE vai de R$ 1,74 mi (2018) a R$ 8,19 mi (2026)",
+    "summary": "Ao registrar a candidatura à Presidência, Flávio Bolsonaro (PL-RJ) declarou ao TSE patrimônio de R$ 8,186 milhões, quase o dobro dos R$ 4,8 milhões declarados por Lula. Em 2018 ele havia declarado R$ 1,74 milhão: alta nominal de 370% e real de cerca de 211% (corrigida pelo IPCA). O maior bem é uma casa no Lago Sul (Brasília), avaliada em R$ 6,2 milhões. Trata-se de dado público da declaração de bens e não envolve acusação.",
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/patrimonio-declarado-de-flavio-sobe-211-desde-2018/",
+    "tags": [
+      "patrimonio",
+      "tse",
+      "declaracao-de-bens",
+      "flavio-bolsonaro"
+    ]
+  },
+  {
+    "id": "ctp-mansao-brb-pf",
+    "date": "2026-10-02",
+    "source": "Diario de Pernambuco",
+    "title": "PF apura condições do financiamento do BRB para a mansão de Flávio em Brasília",
+    "summary": "A Polícia Federal analisa o empréstimo de R$ 3,1 milhões que o BRB concedeu a Flávio Bolsonaro em 2021 para comprar uma casa de cerca de R$ 6 milhões no Lago Sul. Os juros foram de 3,71% ao ano, contra uma média de cerca de 4,85% praticada pelo banco no período. A apuração faz parte do inquérito sobre a relação entre o BRB e o Banco Master. A reportagem não informa indiciamento nem diz que Flávio seja formalmente investigado. Flávio afirma que a operação foi legal, paga com a venda do imóvel onde morava e com a participação numa franquia de chocolates. Ele quitou o financiamento de 30 anos em cerca de 3 anos.",
+    "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11725606-pf-apura-condicoes-de-financiamento-do-brb-a-flavio-bolsonaro-para-mansao-de-rs-6-milhoes.html",
+    "tags": [
+      "mansao",
+      "brb",
+      "financiamento",
+      "policia-federal",
+      "flavio-bolsonaro"
+    ]
+  },
+  {
+    "id": "ctp-adriano-nobrega-homenagens",
+    "date": "2020-02-20",
+    "source": "Metrópoles",
+    "title": "Flávio homenageou Adriano da Nóbrega na Alerj e empregou mãe e ex-mulher dele",
+    "summary": "Como deputado estadual, Flávio propôs uma moção de louvor a Adriano da Nóbrega em 2003 e lhe entregou a Medalha Tiradentes, maior honraria da Alerj, em 2005, quando Adriano estava preso. A mãe e a ex-mulher de Adriano trabalharam no gabinete de Flávio na Alerj. Em 2020, Flávio disse que Adriano e outros policiais estavam presos injustamente na época e depois foram absolvidos. Situação processual: o caso das 'rachadinhas', em que o MP-RJ investigou essas nomeações, teve a denúncia arquivada pelo TJ-RJ em maio de 2022, depois que o STJ e o STF anularam provas. A defesa de Flávio considera o caso encerrado.",
+    "url": "https://www.metropoles.com/brasil/politica-br/flavio-bolsonaro-diz-que-adriano-era-inocente-quando-o-homenageou",
+    "tags": [
+      "adriano-da-nobrega",
+      "alerj",
+      "medalha-tiradentes",
+      "rachadinha",
+      "flavio-bolsonaro"
+    ]
+  },
+  {
+    "id": "ctp-ausencias-votacoes-senado",
+    "date": "2026-06-28",
+    "source": "Folhapress (via Acessa.com)",
+    "title": "Flávio deixou de votar em 43% das votações nominais do Senado em 2026",
+    "summary": "Um levantamento da Folha nos registros do Senado mostra que Flávio Bolsonaro não registrou voto em 43% das 49 votações nominais do ano, até 22 de junho. A média dos 81 senadores foi de 20%. Com esse índice, ele ficou empatado em 5º lugar entre os que mais deixaram de votar. O levantamento exclui ausências justificadas, como licença de saúde e missão oficial, e coincide com a agenda de pré-campanha à Presidência. Segundo a reportagem, a assessoria de Flávio não respondeu até a publicação.",
+    "url": "https://www.acessa.com/politica/2026/06/332392-flavio-bolsonaro-se-ausentou-em-43-das-votacoes-nominais-do-senado-este-ano.html",
+    "tags": [
+      "senado",
+      "votacoes-nominais",
+      "assiduidade",
+      "flavio-bolsonaro"
+    ]
   }
 ]

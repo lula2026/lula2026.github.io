@@ -38,5 +38,83 @@
       "MDB",
       "Cury"
     ]
+  },
+  {
+    "id": "not-2026-10-06-mendonca-multa-flavio-post-negativo",
+    "date": "2026-10-06",
+    "source": "Agência Brasil",
+    "title": "Mendonça multa Flávio em R$ 5 mil por impulsionar post negativo contra Lula",
+    "summary": "Na segunda (5), o ministro André Mendonça multou Flávio Bolsonaro em R$ 5 mil por impulsionamento irregular de propaganda negativa contra Lula. O post começava com a frase \"Lula abandonou o Brasil\". Segundo a decisão, a Lei das Eleições só permite impulsionar conteúdo para promover candidatos. O post não precisa ser removido, mas Flávio está proibido de contratar novos impulsionamentos com mensagem parecida.",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mendonca-multa-flavio-por-impulsionar-post-negativo-contra-lula",
+    "tags": [
+      "justica-eleitoral",
+      "propaganda",
+      "flavio-bolsonaro"
+    ]
+  },
+  {
+    "id": "not-2026-10-04-psd-neutralidade",
+    "date": "2026-10-04",
+    "source": "Metrópoles",
+    "title": "PSD declara neutralidade no 2º turno e libera diretórios",
+    "summary": "Em nota assinada pelo presidente do partido, Gilberto Kassab, o PSD anunciou neutralidade no 2º turno entre Lula e Flávio Bolsonaro. Diretórios estaduais, parlamentares e filiados ficam livres para escolher quem apoiar. No 1º turno, o candidato do PSD, Ronaldo Caiado, teve 2,19% dos votos válidos.",
+    "url": "https://www.metropoles.com/brasil/psd-declara-neutralidade-no-2o-turno-das-eleicoes-presidenciais",
+    "tags": [
+      "partidos",
+      "psd",
+      "kassab"
+    ]
+  },
+  {
+    "id": "not-2026-10-06-caiado-apoia-flavio",
+    "date": "2026-10-06",
+    "source": "Terra",
+    "title": "Caiado declara apoio a Flávio Bolsonaro no 2º turno em evento em Goiânia",
+    "summary": "Ronaldo Caiado (PSD), quinto colocado no 1º turno com 2,18% dos votos, declarou apoio a Flávio Bolsonaro na terça (6), em ato em Goiânia. Flávio, o governador reeleito de São Paulo, Tarcísio de Freitas, e o governador eleito de Goiás, Daniel Vilela (MDB), estavam presentes. Caiado disse: \"Aqui o PT não tem vez\".",
+    "url": "https://www.terra.com.br/noticias/eleicoes/caiado-declara-apoio-a-flavio-bolsonaro-no-2-turno-das-eleicoes-pela-presidencia-da-republica,95a175157ecaeb8f9f56775e47a68ea38p2cq72a.html",
+    "tags": [
+      "caiado",
+      "apoios",
+      "goias"
+    ]
+  },
+  {
+    "id": "not-2026-10-05-segundo-turno-estados-aliados",
+    "date": "2026-10-05",
+    "source": "Poder360",
+    "title": "2º turno nos estados: Flávio tem 7 aliados e Lula, 4",
+    "summary": "Seis estados e o Distrito Federal terão 2º turno para governador em 25 de outubro. Em quatro deles, aliados de Lula enfrentam aliados de Flávio: Amazonas (Omar Aziz x Maria do Carmo), Rio de Janeiro (Eduardo Paes x Douglas Ruas), Distrito Federal (Leandro Grass x Celina Leão) e Rio Grande do Norte (Cadu Xavier x Allyson Bezerra).",
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-7-aliados-no-2o-turno-nos-estados-lula-4/",
+    "tags": [
+      "governadores",
+      "estados",
+      "segundo-turno"
+    ]
+  },
+  {
+    "id": "not-2026-10-04-abstencao-recorde",
+    "date": "2026-10-04",
+    "source": "Terra",
+    "title": "Abstenção passa de 33 milhões e chega a 21,07%, maior taxa desde 1998",
+    "summary": "No 1º turno de 4 de outubro, mais de 33 milhões de eleitores aptos não votaram, o que corresponde a 21,07% do eleitorado. É a maior taxa em uma eleição presidencial desde 1998. Em 2022, a abstenção tinha sido de 20,95%, com 32,77 milhões de ausentes.",
+    "url": "https://www.terra.com.br/noticias/eleicoes/abstencao-passa-de-33-milhoes-em-2026-e-atinge-maior-nivel-em-28-anos,e3799dbbebb6ebed266b0314afea26e6w5tuflne.html",
+    "tags": [
+      "abstencao",
+      "primeiro-turno",
+      "dados"
+    ]
+  },
+  {
+    "id": "not-2026-10-03-datafolha-segundo-turno",
+    "date": "2026-10-03",
+    "source": "Estado de Minas",
+    "title": "Datafolha às vésperas do 1º turno: Lula 47% x Flávio 46% em simulação de 2º turno",
+    "summary": "Na simulação de 2º turno do Datafolha, Lula tinha 47% e Flávio Bolsonaro, 46%, dentro da margem de erro de 2 pontos. Dois dias antes, o placar era de 48% a 45%. Foram ouvidos 4.006 eleitores em 3 de outubro, com nível de confiança de 95%. A pesquisa foi contratada por Folha de S.Paulo e TV Globo e está registrada no TSE sob o número BR-01708/2026.",
+    "url": "https://www.em.com.br/politica/2026/10/7513949-datafolha-lula-tem-47-e-flavio-46-no-segundo-turno.html",
+    "tags": [
+      "pesquisa",
+      "datafolha",
+      "segundo-turno"
+    ]
   }
 ]

@@ -37,5 +37,64 @@
       "salário-mínimo",
       "renda"
     ]
+  },
+  {
+    "id": "ent-farmacia-popular-gratuito",
+    "date": "2026-09-21",
+    "source": "Ministério da Saúde (gov.br)",
+    "title": "Farmácia Popular gratuito atendeu mais de 24 milhões de pessoas em 2026",
+    "summary": "O Farmácia Popular oferece 41 itens gratuitos, entre medicamentos, fraldas geriátricas e absorventes. Segundo o Ministério da Saúde, mais de 24 milhões de pessoas foram atendidas em 2026 e mais de 27 milhões em 2025. Em 2026 foram destinados R$ 4,7 bilhões ao programa. Para uma família de quatro pessoas, a economia pode chegar a R$ 8,8 mil por ano.",
+    "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/programa-farmacia-popular-pode-gerar-economia-de-ate-r-8-8-mil-por-ano-para-familias-brasileiras",
+    "tags": [
+      "saude",
+      "farmacia-popular",
+      "remedio-gratis"
+    ],
+    "share": "Farmácia Popular: 41 itens de graça, mais de 24 milhões de pessoas atendidas em 2026 e economia de até R$ 8,8 mil por ano para uma família de 4 (Ministério da Saúde)."
+  },
+  {
+    "id": "ent-fora-do-mapa-da-fome",
+    "date": "2026-07-22",
+    "source": "Agência Brasil",
+    "title": "Relatório da ONU de 2026 confirma o Brasil fora do Mapa da Fome",
+    "summary": "O relatório SOFI 2026, de cinco agências da ONU (entre elas FAO, Unicef e PMA), mostra que a subnutrição no Brasil ficou abaixo de 2,5% da população no triênio 2023-2025, critério da FAO para sair do Mapa da Fome. A insegurança alimentar grave caiu para 0,6% da população (1,2 milhão de pessoas), o menor nível da série. A insegurança alimentar moderada ou grave caiu de 22,1% (2020-2022) para 9,6% (cerca de 20,3 milhões de pessoas). O Brasil já tinha saído do Mapa no relatório SOFI 2025, divulgado em 28/07/2025.",
+    "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-07/brasil-continua-fora-do-mapa-da-fome-aponta-relatorio-da-onu",
+    "tags": [
+      "fome",
+      "mapa-da-fome",
+      "onu",
+      "fao"
+    ],
+    "share": "Relatório da ONU de 2026 (SOFI): o Brasil segue fora do Mapa da Fome, e a fome grave caiu para 0,6% da população, o menor nível da série (Agência Brasil)."
+  },
+  {
+    "id": "ent-pobreza-minima-historica",
+    "date": "2025-12-03",
+    "source": "IBGE (Síntese de Indicadores Sociais), via CNN Brasil",
+    "title": "8,6 milhões saem da pobreza em 2024, menor patamar da série do IBGE",
+    "summary": "Segundo o IBGE, a pobreza caiu de 27,3% em 2023 para 23,1% em 2024: 8,6 milhões de pessoas a menos nessa condição. A extrema pobreza caiu de 4,4% para 3,5%, ou 1,9 milhão de pessoas a menos. As duas taxas são as menores desde 2012, quando começa a série histórica. Sem os programas sociais, a extrema pobreza em 2024 seria de 10%.",
+    "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/populacao-em-extrema-pobreza-cai-para-35-em-2024-diz-ibge/",
+    "tags": [
+      "pobreza",
+      "ibge",
+      "renda",
+      "programas-sociais"
+    ],
+    "share": "IBGE: 8,6 milhões de brasileiros saíram da pobreza em 2024, e a extrema pobreza caiu para 3,5%, o menor nível desde 2012 (IBGE/CNN Brasil)."
+  },
+  {
+    "id": "ent-inflacao-2025-dentro-da-meta",
+    "date": "2026-01-09",
+    "source": "IBGE, via CNN Brasil",
+    "title": "Inflação de 2025 fecha em 4,26%, dentro da meta, e alimentos sobem 2,95%",
+    "summary": "O IPCA, índice oficial de inflação medido pelo IBGE, fechou 2025 em 4,26%, abaixo do teto da meta de 4,5%. Segundo a CNN Brasil, é o melhor resultado desde 2018. Os alimentos subiram 2,95% em 2025, contra 7,69% em 2024.",
+    "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/ipca-inflacao-fecha-2025-em-426-e-fica-dentro-do-teto-da-meta/",
+    "tags": [
+      "economia",
+      "inflacao",
+      "ipca",
+      "alimentos"
+    ],
+    "share": "A inflação de 2025 fechou em 4,26%, dentro da meta, e a comida subiu só 2,95%, contra 7,69% em 2024 (IBGE/CNN Brasil)."
   }
 ]
