@@ -157,6 +157,13 @@
       }
       const tag = e.target.closest("[data-tag]");
       if (tag) { state.tag = state.tag === tag.dataset.tag ? null : tag.dataset.tag; renderAll(); return; }
+      const kitCopy = e.target.closest(".kit-copy");
+      if (kitCopy) {
+        const txt = kitCopy.closest(".kit-script").querySelector(".kit-text").innerText.trim();
+        try { await navigator.clipboard.writeText(txt); toast("Copiado! Preencha os [colchetes] antes de enviar."); }
+        catch { toast("Não consegui copiar. Selecione o texto manualmente."); }
+        return;
+      }
       const copy = e.target.closest("[data-copy]");
       if (copy) {
         const item = Object.values(state.data).filter(Array.isArray).flat().find((i) => i.id === copy.dataset.copy);
