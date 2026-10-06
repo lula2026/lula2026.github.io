@@ -1,5 +1,5 @@
     const SECTIONS = [
-      { id: "manual",      label: "Manual da Virada", title: "Manual da Virada", desc: "Como virar votos no 2º turno: táticas de comunicação reunidas de cinco carrosséis de @socialistadeiphone.", static: true },
+      { id: "manual",      label: "Manual da Virada", title: "Manual da Virada", desc: "Como virar votos no 2º turno: táticas de comunicação reunidas de cinco carrosséis de @0socialistadeiphone.", static: true },
       { id: "hoje",        label: "Hoje",        title: "Hoje: digest",           desc: "O que importa nas últimas 24–48h para a campanha." },
       { id: "noticias",    label: "Notícias",    title: "Notícias",               desc: "Apoios, pesquisas, agenda e bastidores, sempre com fonte jornalística." },
       { id: "entregas",    label: "Entregas",    title: "O que o governo fez",    desc: "Realizações com número e fonte. É a base do argumento \"comparar projetos\"." },
