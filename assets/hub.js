@@ -76,7 +76,7 @@
     function render(sectionId) {
       const grid = $(`#grid-${sectionId}`);
       const raw = state.data[sectionId];
-      if (raw instanceof Error) { grid.innerHTML = `<div class="error">Erro ao carregar <code>data/${sectionId}.json</code>: ${esc(raw.message)}</div>`; return; }
+      if (raw instanceof Error) { grid.innerHTML = `<div class="error">Não foi possível carregar esta aba agora. Tente recarregar a página.</div>`; return; }
       if (!raw) return;
       const items = raw.filter(matches).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
       const counter = $(`[data-count="${sectionId}"]`);
@@ -87,7 +87,7 @@
         `<button class="tag${state.tag === t ? " on" : ""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
 
       grid.innerHTML = items.length ? items.map((i) => cardHTML(i, sectionId)).join("")
-        : `<div class="empty">${raw.length ? "Nada encontrado com esse filtro." : "Nenhum card ainda. Adicione itens em <code>data/" + sectionId + ".json</code>."}</div>`;
+        : `<div class="empty">${raw.length ? "Nada encontrado com esse filtro." : "Nenhum card nesta aba por enquanto."}</div>`;
     }
 
     function renderAll() { SECTIONS.forEach((s) => render(s.id)); }
