@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="robots" content="index, follow" />
+  <title>Lula Hub 2026</title>
+  <meta name="description" content="Hub independente de argumentos, checagens e notícias para o 2º turno Lula × Flávio Bolsonaro (25/10/2026)" />
+  <link rel="stylesheet" href="assets/hub.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div>
+          <h1><span class="star">★</span> Lula Hub 2026</h1>
+          <p class="sub">Argumentos, checagens e notícias · 2º turno Lula × Flávio Bolsonaro · hub independente, não oficial</p>
+        </div>
+        <div class="brand-right">
+          <span class="countdown"><span class="dot"></span><span id="countdown">2º turno · 25/10</span></span>
+          <button class="icon-btn" id="theme" aria-label="Alternar tema">◐</button>
+        </div>
+      </div>
+      <div class="tools">
+        <input id="q" type="search" placeholder="Buscar em todas as abas (ex.: 6x1, urna, Queiroz)…" aria-label="Buscar" />
+      </div>
+      <nav class="tabs" role="tablist" aria-label="Seções" id="tabs"></nav>
+    </div>
+  </header>
+
+  <main id="main"></main>
+
+  <details class="rules">
+    <summary>Regras do jogo: compartilhe sem tomar multa nem espalhar boato</summary>
+    <ul>
+      <li>Só compartilhe card com <b>link de fonte</b>. Leia a matéria antes. Se não tiver como confirmar, não repasse.</li>
+      <li>É proibido usar <b>deepfake</b> (áudio/vídeo/imagem que imite pessoa real). Conteúdo feito com IA precisa de <b>rótulo explícito</b> (Res. TSE 23.610/2019, com redação da Res. 23.732/2024).</li>
+      <li><b>Impulsionamento pago</b> de propaganda eleitoral só pode ser contratado por candidato, partido, federação ou coligação. Pessoa física não pode pagar para impulsionar (Lei 9.504/97, art. 57-C).</li>
+      <li><b>Disparo em massa</b> por WhatsApp/Telegram para listas compradas ou sem consentimento é vedado. Mande para quem você conhece.</li>
+      <li>Crítica ao adversário deve se basear em <b>fatos documentados</b>. Diga "foi investigado" ou "foi denunciado" quando for o caso, nunca "é criminoso" sem condenação.</li>
+      <li>Viu fake news? Denuncie no <a href="https://www.tse.jus.br/comunicacao/noticias/2024/Fevereiro/sistema-de-alerta-de-desinformacao" target="_blank" rel="noopener">Sistema de Alerta do TSE</a>.</li>
+    </ul>
+  </details>
+
+  <footer>Dados em <code>data/*.json</code> · atualize os arquivos e recarregue a página · nenhum vínculo com partido ou campanha oficial</footer>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="assets/hub.js"></script>
+</body>
+</html>

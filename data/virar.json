@@ -1,0 +1,39 @@
+[
+  {
+    "id": "vv-nao-votou",
+    "date": "2026-10-06",
+    "source": "Roteiro do hub",
+    "title": "Para quem não votou no 1º turno",
+    "summary": "Não julgue. Pergunte o que pesou na decisão (trabalho, viagem, desânimo). Lembre que a diferença foi de cerca de 2 milhões de votos, então um voto faz diferença de verdade. Ajude com o prático: local de votação (app e-Título), transporte e horário (das 8h às 17h, horário de Brasília).",
+    "share": "No 1º turno, a diferença foi de uns 2 milhões de votos. Dia 25/10 cada voto conta de verdade. Sabe onde vota? Confere no app e-Título. Se precisar, eu te ajudo a chegar lá.",
+    "tags": [
+      "abstenção",
+      "roteiro"
+    ]
+  },
+  {
+    "id": "vv-eleitor-cury",
+    "date": "2026-10-06",
+    "source": "Roteiro do hub",
+    "title": "Para eleitor do Cury, que buscava \"esperança\" e saúde emocional",
+    "summary": "Cury pediu que o vencedor governe \"pensando em um Brasil de esperança\". Comece concordando com isso. Depois fale de entregas concretas que tiram peso do bolso, como o IR zero até R$ 5 mil e o aumento real do mínimo, e das propostas para saúde. Evite ataques, porque esse eleitor rejeita polarização.",
+    "tags": [
+      "Cury",
+      "centro",
+      "roteiro"
+    ]
+  },
+  {
+    "id": "vv-trabalhador-6x1",
+    "date": "2026-10-06",
+    "source": "Roteiro do hub",
+    "title": "Para quem trabalha na escala 6x1",
+    "summary": "Pergunte quantos dias de folga a pessoa tem. Explique a proposta de acabar com a escala 6x1 e compare com a posição do adversário. Use a fonte oficial do plano de governo, registrado no DivulgaCand do TSE.",
+    "url": "https://divulgacandcontas.tse.jus.br/",
+    "tags": [
+      "6x1",
+      "trabalho",
+      "roteiro"
+    ]
+  }
+]

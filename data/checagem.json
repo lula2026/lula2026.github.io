@@ -1,0 +1,45 @@
+[
+  {
+    "id": "chk-urnas-anular",
+    "date": "2026-10-04",
+    "source": "Agência Lupa",
+    "verdict": "Falso",
+    "title": "\"TSE vai anular a eleição de 2026 por erro em 2 mil urnas\"",
+    "summary": "A Lupa checou e é falso. A agência também desmentiu boatos sobre \"invasão hacker\" em testes do TSE, sobre chips taiwaneses manipulados e sobre supostos documentos de fraude em 2022.",
+    "share": "É FALSO que o TSE vai anular a eleição por erro em urnas. A checagem é da Agência Lupa. Não repasse boato: o voto é seguro e o 2º turno é dia 25/10.",
+    "url": "https://www.agencialupa.org/jornalismo/2026/10/04/urnas-eletronicas-voltam-a-ser-alvo-de-desinformacao-em-2026/",
+    "tags": [
+      "urnas",
+      "TSE",
+      "desinformação"
+    ]
+  },
+  {
+    "id": "chk-audio-lula",
+    "date": "2026-09-01",
+    "source": "Aos Fatos",
+    "verdict": "Falso",
+    "title": "Áudio em que Lula pede medidas contra a candidatura de Flávio",
+    "summary": "Segundo a checagem do Aos Fatos, Lula não gravou o áudio. Se receber, não repasse e mande o link da checagem.",
+    "url": "https://www.aosfatos.org/noticias/lula-nao-gravou-audio-pede-medidas-contra-candidatura-flavio-bolsonaro-2026/",
+    "tags": [
+      "áudio-falso",
+      "IA",
+      "Lula"
+    ]
+  },
+  {
+    "id": "chk-lula-flow",
+    "date": "2026-10-01",
+    "source": "Agência Lupa",
+    "verdict": "Enganoso",
+    "title": "Autocrítica: Lula errou no Flow sobre PIB e sobre parentes de Flávio",
+    "summary": "A Lupa apontou que Lula repetiu um erro sobre o PIB e disse que Flávio empregou familiares no Senado, quando as nomeações foram na Alerj. Ao usar esses temas, cite a versão correta. Errar no detalhe dá munição ao adversário.",
+    "url": "https://www.agencialupa.org/checagem/2026/10/01/ao-vivo-checagem-da-entrevista-de-lula-no-flow/",
+    "tags": [
+      "autocrítica",
+      "PIB",
+      "precisão"
+    ]
+  }
+]

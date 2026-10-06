@@ -1,0 +1,53 @@
+[
+  {
+    "id": "com-lupa-lente",
+    "date": "2026-10-04",
+    "source": "Agência Lupa: newsletter Lente",
+    "title": "Acompanhe: Lente, a newsletter da Lupa sobre desinformação",
+    "summary": "Um bom lugar para descobrir quais boatos estão circulando antes que cheguem ao grupo da família.",
+    "url": "https://agencialupa.substack.com/",
+    "tags": [
+      "checagem",
+      "newsletter"
+    ]
+  },
+  {
+    "id": "com-dcm",
+    "date": "2026-10-06",
+    "source": "Diário do Centro do Mundo (DCM)",
+    "title": "Acompanhe: DCM e DCM TV",
+    "summary": "Portal progressista com análise diária do noticiário e programas ao vivo no YouTube (DCM TV), com Kiko Nogueira, Joaquim de Carvalho e Thiago Suman. Use como fonte de opinião e de cortes, e confirme os fatos citados em fonte primária.",
+    "url": "https://www.youtube.com/channel/UCutrj9cR0cNi2PfiTMGAWrA",
+    "tags": [
+      "DCM",
+      "YouTube",
+      "análise-diária"
+    ]
+  },
+  {
+    "id": "com-demori",
+    "date": "2026-10-06",
+    "source": "Leandro Demori",
+    "title": "Acompanhe: Leandro Demori, newsletter A Grande Guerra e YouTube",
+    "summary": "Jornalista investigativo, ex-editor do Intercept Brasil e ex-diretor de jornalismo do ICL. Escreve a newsletter A Grande Guerra e publica análises no YouTube.",
+    "url": "https://www.agrandeguerra.com.br/",
+    "tags": [
+      "Demori",
+      "newsletter",
+      "investigação"
+    ]
+  },
+  {
+    "id": "com-suman",
+    "date": "2026-10-06",
+    "source": "Thiago Suman / DCM",
+    "title": "Acompanhe: Thiago Suman, análise das notícias do dia no DCM",
+    "summary": "Comenta as principais notícias do dia em programas do DCM. O link reúne os programas com a participação dele.",
+    "url": "https://www.diariodocentrodomundo.com.br/tag/thiago-suman/",
+    "tags": [
+      "Suman",
+      "DCM",
+      "análise-diária"
+    ]
+  }
+]

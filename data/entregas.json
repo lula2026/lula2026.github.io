@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ent-ir-5mil",
+    "date": "2026-01-01",
+    "source": "PT / CTB / Instituto Lula",
+    "title": "IR zero para quem ganha até R$ 5 mil, em vigor desde janeiro de 2026",
+    "summary": "Quem ganha até R$ 5 mil por mês não paga imposto de renda, e há desconto gradual até R$ 7.350. A estimativa é de cerca de 15 milhões de beneficiados: 10 milhões deixaram de pagar e 5 milhões passaram a pagar menos.",
+    "share": "Você que ganha até R$ 5 mil: desde janeiro não paga mais imposto de renda. Foi uma promessa do Lula, e ela foi cumprida. São cerca de 10 milhões de brasileiros a menos pagando IR.",
+    "url": "https://pt.org.br/430539-2/",
+    "tags": [
+      "imposto-de-renda",
+      "renda",
+      "promessa-cumprida"
+    ]
+  },
+  {
+    "id": "ent-desemprego",
+    "date": "2026-01-30",
+    "source": "Jovem Pan (dados IBGE/PNAD)",
+    "title": "Desemprego na menor taxa da série histórica",
+    "summary": "O ano de 2025 terminou com a menor taxa de desemprego da série histórica do IBGE. Antes de citar o número exato, confira o último dado da PNAD Contínua no site do IBGE.",
+    "url": "https://jovempan.com.br/politica/lula-comemora-menor-taxa-de-desemprego-da-serie-historica-seguiremos-trabalhando/",
+    "tags": [
+      "emprego",
+      "economia",
+      "IBGE"
+    ]
+  },
+  {
+    "id": "ent-salario-minimo",
+    "date": "2026-01-01",
+    "source": "CTB",
+    "title": "Salário mínimo com aumento real de novo em 2026",
+    "summary": "A política de valorização do salário mínimo voltou e garante reajuste acima da inflação. Em 2026, o mínimo teve mais um aumento real.",
+    "url": "https://www.ctb.org.br/2026/09/26/ir-zero-ate-r-5-mil-lula-coloca-mais-dinheiro-no-bolso-dos-trabalhadores-e-reforca-compromisso-com-a-justica-tributaria/",
+    "tags": [
+      "salário-mínimo",
+      "renda"
+    ]
+  }
+]
