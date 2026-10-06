@@ -1,4 +1,4 @@
-Contact: https://github.com/vbfortes85/lula-hub-site/security/advisories/new
+Contact: https://github.com/lula2026/lula2026.github.io/security/advisories/new
 Expires: 2027-01-31T23:59:59Z
 Preferred-Languages: pt, en
-Policy: https://github.com/vbfortes85/lula-hub-site/blob/main/SECURITY.md
+Policy: https://github.com/lula2026/lula2026.github.io/blob/main/SECURITY.md
