@@ -5,6 +5,7 @@
       { id: "checagem",    label: "Checagem",    title: "Boato × Fato",           desc: "Mentiras que circulam contra Lula e contra as urnas, já desmentidas por agências de checagem." },
       { id: "contraponto", label: "Contraponto", title: "Contraponto Flávio",     desc: "Fatos documentados sobre o adversário. Só fatos com fonte, sem adjetivo e sem acusação sem prova." },
       { id: "virar",       label: "Virar voto",  title: "Virar voto",             desc: "Roteiros curtos para conversar com indecisos, eleitores de Cury, Renan e Caiado e quem não foi votar no 1º turno." },
+      { id: "manual",      label: "Manual de Virada", title: "Manual de Virada 2026", desc: "Táticas de comunicação para o 2º turno, reunidas de cinco carrosséis de @socialistadeiphone.", static: true },
       { id: "comentaristas", label: "Comentaristas", title: "Comentaristas",      desc: "Análises e cortes de jornalistas e influenciadores progressistas." },
       { id: "arquivo",     label: "Arquivo",     title: "Arquivo",                desc: "Cards antigos que ainda podem ser úteis." },
     ];
@@ -36,11 +37,15 @@
         `<button class="tab${s.id === state.active ? " active" : ""}" role="tab" data-section="${s.id}" aria-selected="${s.id === state.active}">${s.label}</button>`).join("");
       $("#main").innerHTML = SECTIONS.map((s) => `
         <section id="panel-${s.id}" class="panel${s.id === state.active ? " active" : ""}" role="tabpanel">
-          <div class="section-head"><h2>${s.title}</h2><span class="meta" data-count="${s.id}">—</span></div>
+          <div class="section-head"><h2>${s.title}</h2>${s.static ? "" : `<span class="meta" data-count="${s.id}">—</span>`}</div>
           <p class="section-desc">${s.desc}</p>
-          <div class="tagbar" id="tags-${s.id}"></div>
-          <div class="grid" id="grid-${s.id}"><div class="loading">Carregando…</div></div>
+          ${s.static ? `<div class="static" id="static-${s.id}"></div>` : `<div class="tagbar" id="tags-${s.id}"></div>
+          <div class="grid" id="grid-${s.id}"><div class="loading">Carregando…</div></div>`}
         </section>`).join("");
+      SECTIONS.filter((s) => s.static).forEach((s) => {
+        const tpl = document.getElementById(`tpl-${s.id}`);
+        if (tpl) $(`#static-${s.id}`).appendChild(tpl.content.cloneNode(true));
+      });
     }
 
     function shareText(item) {
@@ -90,7 +95,7 @@
         : `<div class="empty">${raw.length ? "Nada encontrado com esse filtro." : "Nenhum card nesta aba por enquanto."}</div>`;
     }
 
-    function renderAll() { SECTIONS.forEach((s) => render(s.id)); }
+    function renderAll() { SECTIONS.filter((s) => !s.static).forEach((s) => render(s.id)); }
 
     function activate(id) {
       state.active = id;
@@ -101,7 +106,7 @@
     }
 
     async function load() {
-      await Promise.all(SECTIONS.map(async (s) => {
+      await Promise.all(SECTIONS.filter((s) => !s.static).map(async (s) => {
         try {
           const res = await fetch(`data/${s.id}.json`, { cache: "no-store" });
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
