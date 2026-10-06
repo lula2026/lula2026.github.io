@@ -35,5 +35,47 @@
       "trabalho",
       "roteiro"
     ]
+  },
+  {
+    "id": "vv-sao-iguais",
+    "date": "2026-10-06",
+    "source": "Roteiro do hub",
+    "title": "Para quem diz \"os dois são iguais\"",
+    "summary": "Concorde que a desconfiança com político faz sentido. Depois saia do discurso e vá para o bolso: pergunte quanto a pessoa ganha e mostre o que mudou de concreto, como o IR zero até R$ 5 mil desde janeiro e o salário mínimo com aumento real. Termine com uma pergunta, não com um sermão: \"o que faria diferença na sua vida a partir de segunda?\".",
+    "share": "Acha que os dois são iguais? Quem ganha até R$ 5 mil não paga mais imposto de renda desde janeiro. Isso não é discurso, é contracheque. Dia 25/10 a gente decide se isso continua.",
+    "url": "https://pt.org.br/430539-2/",
+    "tags": [
+      "indeciso",
+      "renda",
+      "roteiro"
+    ]
+  },
+  {
+    "id": "vv-medo-urna",
+    "date": "2026-10-06",
+    "source": "Roteiro do hub",
+    "title": "Para quem desconfia da urna",
+    "summary": "Não ridicularize: muita gente recebeu boato no grupo da família. Mostre a checagem da Agência Lupa sobre o falso \"TSE vai anular a eleição\" e explique que a urna é auditada e testada em público. Feche com o convite prático: votar é o jeito de garantir que a sua escolha conte.",
+    "share": "Recebeu que o TSE vai anular a eleição? É falso, a Agência Lupa checou. A urna é auditada e testada em público. O que decide é ir votar no dia 25/10.",
+    "url": "https://www.agencialupa.org/jornalismo/2026/10/04/urnas-eletronicas-voltam-a-ser-alvo-de-desinformacao-em-2026/",
+    "tags": [
+      "urnas",
+      "desinformação",
+      "roteiro"
+    ]
+  },
+  {
+    "id": "vv-antipetista-moderado",
+    "date": "2026-10-06",
+    "source": "Roteiro do hub",
+    "title": "Para o eleitor de Caiado, Zema ou Renan que não gosta do PT",
+    "summary": "Não tente converter a pessoa ao PT: fale de estabilidade e de vida prática. Reconheça as críticas dela e pergunte o que pesa mais agora, emprego, preço no mercado ou segurança. Use números com fonte (desemprego na mínima da série do IBGE, IR zero até R$ 5 mil) e respeite se ela preferir pensar. Votar contra o caos também é escolha.",
+    "share": "Você não precisa gostar do PT para olhar os números: desemprego na mínima da série do IBGE e IR zero para quem ganha até R$ 5 mil. Pense nisso antes do dia 25/10.",
+    "url": "https://jovempan.com.br/politica/lula-comemora-menor-taxa-de-desemprego-da-serie-historica-seguiremos-trabalhando/",
+    "tags": [
+      "centro",
+      "antipetismo",
+      "roteiro"
+    ]
   }
 ]

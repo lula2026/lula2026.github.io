@@ -62,28 +62,31 @@ a { color: var(--accent-text); text-underline-offset: 3px; }
 .hero { background: var(--ink); color: var(--paper); position: relative; overflow: hidden; }
 .hero::after { /* faixa terracota assimétrica */
   content: ""; position: absolute; right: -8%; bottom: 0; width: 46%; height: 10px; background: var(--terra); }
-.hero-inner { max-width: var(--wrap); margin: 0 auto; padding: var(--s4) var(--gutter) var(--s6); }
-.hero-top { display: flex; align-items: center; gap: var(--s3); margin-bottom: var(--s5); }
+.hero-inner { max-width: var(--wrap); margin: 0 auto; padding: var(--s4) var(--gutter) var(--s5); }
+.hero-top { display: flex; align-items: center; gap: var(--s3); margin-bottom: var(--s4); }
 .brand-mark { white-space: nowrap; font-family: var(--font-display); font-size: 1.15rem; letter-spacing: .04em; text-transform: uppercase; }
 .brand-mark .star { color: var(--mustard); }
 .hero-tag { white-space: nowrap; font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #9C968D; border: 1px solid #3A3733; padding: 3px 8px; }
 .icon-btn { margin-left: auto; appearance: none; width: var(--tap); height: var(--tap); border: 2px solid #3A3733; background: transparent; color: var(--paper); font: inherit; font-size: 1rem; cursor: pointer; }
 .icon-btn:hover { border-color: var(--mustard); color: var(--mustard); }
 
-.hero-grid { display: grid; grid-template-columns: 1fr; gap: var(--s5); align-items: end; }
-@media (min-width: 760px) { .hero-grid { grid-template-columns: minmax(0, 1.7fr) minmax(220px, 1fr); gap: var(--s7); } }
-.hero-title { display: flex; flex-direction: column; font-weight: 400; }
-.ht-kicker { align-self: flex-start; background: var(--mustard); color: var(--ink); font-family: var(--font-body); font-weight: 800; font-size: .74rem; letter-spacing: .14em; text-transform: uppercase; padding: 6px 10px; transform: rotate(-1.5deg); margin-bottom: var(--s3); }
-.ht-lula { font-family: var(--font-display); font-size: clamp(5.5rem, 37vw, 13rem); line-height: .9; letter-spacing: -.01em; text-transform: uppercase; color: var(--paper); }
-.ht-virada { font-family: var(--font-display); font-size: clamp(2rem, 9.5vw, 3.8rem); line-height: 1; text-transform: uppercase; color: var(--paper); margin-top: var(--s2); }
-.ht-hl { align-self: flex-start; margin-top: var(--s1); background: var(--terra); padding: 2px 10px 0; white-space: nowrap; box-shadow: 6px 6px 0 var(--mustard); }
-.hero-count { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: var(--s3); align-items: end;
-  background: var(--terra); color: var(--paper); padding: var(--s4) var(--s5); box-shadow: 8px 8px 0 var(--mustard); margin-right: 8px; }
-@media (min-width: 760px) { .hero-count { transform: translateY(-12px) rotate(1.2deg); } }
-.cd-num { grid-row: 1 / span 2; font-family: var(--font-display); font-size: clamp(3.6rem, 16vw, 5.6rem); line-height: .85; }
-.cd-unit { font-family: var(--font-display); font-size: 1.6rem; line-height: 1; text-transform: uppercase; }
-.cd-label { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; line-height: 1.2; }
-.hero-sub { margin-top: var(--s5); max-width: 52ch; color: #C9C3BA; font-size: 1rem; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s4); align-items: center; }
+@media (min-width: 820px) { .hero-grid { grid-template-columns: minmax(0, 1fr) auto; gap: var(--s6); } }
+/* Título: LULA à esquerda, chamada da virada ao lado */
+.hero-title { display: flex; align-items: center; gap: clamp(12px, 3vw, 28px); font-weight: 400; min-width: 0; }
+.ht-lula { flex: 0 0 auto; font-family: var(--font-display); font-size: clamp(4.4rem, 21vw, 9.5rem); line-height: .86; letter-spacing: -.01em; text-transform: uppercase; color: var(--paper); }
+.ht-side { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; min-width: 0; padding-left: clamp(12px, 3vw, 28px); border-left: 4px solid var(--terra); }
+.ht-kicker { background: var(--mustard); color: var(--ink); font-family: var(--font-body); font-weight: 800; font-size: clamp(.62rem, 2.6vw, .74rem); letter-spacing: .12em; text-transform: uppercase; padding: 4px 8px; transform: rotate(-1.5deg); white-space: nowrap; }
+.ht-virada { font-family: var(--font-display); font-size: clamp(1.25rem, 6vw, 2.7rem); line-height: 1; text-transform: uppercase; color: var(--paper); white-space: nowrap; }
+.ht-hl { background: var(--terra); padding: 3px 8px 0; box-shadow: 5px 5px 0 var(--mustard); }
+/* Contagem: faixa compacta no celular, bloco inclinado no computador */
+.hero-count { justify-self: start; display: grid; grid-template-columns: auto auto; grid-template-rows: auto auto; column-gap: var(--s3); align-items: end;
+  background: var(--terra); color: var(--paper); padding: var(--s3) var(--s4); box-shadow: 6px 6px 0 var(--mustard); }
+@media (min-width: 820px) { .hero-count { padding: var(--s4) var(--s5); transform: rotate(1.2deg); } }
+.cd-num { grid-row: 1 / span 2; font-family: var(--font-display); font-size: clamp(2.6rem, 11vw, 4.6rem); line-height: .85; }
+.cd-unit { font-family: var(--font-display); font-size: clamp(1.1rem, 4.5vw, 1.5rem); line-height: 1; text-transform: uppercase; }
+.cd-label { font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; line-height: 1.2; }
+.hero-sub { margin-top: var(--s4); max-width: 60ch; color: #C9C3BA; font-size: .95rem; }
 
 /* ---------- Abas (fixas no topo ao rolar) ---------- */
 .tabbar { position: sticky; top: 0; z-index: 100; background: var(--ink); border-bottom: 4px solid var(--terra); }
@@ -160,26 +163,23 @@ main { max-width: var(--wrap); margin: 0 auto; padding: var(--s5) var(--gutter) 
 .panel.active { display: block; }
 .panel, .static, .mv, .mv > * { min-width: 0; max-width: 100%; }
 
-.rules { max-width: var(--wrap); margin: 0 auto var(--s5); padding: var(--s4) var(--gutter); }
+.rules { width: min(calc(var(--wrap) - 2 * var(--gutter)), calc(100% - 2 * var(--gutter))); margin: 0 auto var(--s5); padding: var(--s4) var(--s5); }
 .rules > * { max-width: 72ch; }
 .rules { border-left: 6px solid var(--mustard); background: var(--surface); font-size: .9rem; color: var(--muted); }
-@media (min-width: 1152px) { .rules { margin-left: auto; margin-right: auto; } }
 .rules summary { cursor: pointer; min-height: var(--tap); display: flex; align-items: center; font-family: var(--font-display); font-size: 1.2rem; letter-spacing: .03em; text-transform: uppercase; color: var(--text); }
 .rules ul { margin: var(--s3) 0 0 var(--s4); display: flex; flex-direction: column; gap: var(--s2); }
-footer { max-width: var(--wrap); margin: 0 auto; padding: var(--s5) var(--gutter) calc(var(--s7) + env(safe-area-inset-bottom)); color: var(--faint); font-size: .78rem; font-weight: 700; letter-spacing: .04em; border-top: 4px solid var(--terra); }
+footer { width: min(calc(var(--wrap) - 2 * var(--gutter)), calc(100% - 2 * var(--gutter))); margin: 0 auto; padding: var(--s5) 0 calc(var(--s7) + env(safe-area-inset-bottom)); color: var(--faint); font-size: .78rem; font-weight: 700; letter-spacing: .04em; border-top: 4px solid var(--terra); }
 .toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom)); transform: translateX(-50%) translateY(120px); background: var(--mustard); color: var(--ink);
   padding: var(--s3) var(--s4); font-weight: 800; font-size: .92rem; box-shadow: 6px 6px 0 var(--ink); transition: transform .2s; z-index: 200; max-width: calc(100vw - 32px); }
 .toast.show { transform: translateX(-50%) translateY(0); }
 
 /* ---------- Manual da Virada (capa) ---------- */
 #panel-manual .section-head, #panel-manual .section-desc { display: none; } /* a própria capa do manual faz esse papel */
-.mv { display: flex; flex-direction: column; gap: var(--s6); max-width: 900px; }
+.mv { display: flex; flex-direction: column; gap: var(--s5); }
+.mv > * > * { max-width: 72ch; } /* texto com largura de leitura; a caixa ocupa a largura toda, alinhada às outras seções */
+.mv-matrix, .mv-check, .mv-fontes, .mv-toc { max-width: none !important; }
 .mv-cover, .mv-block { background: var(--surface); border: 1px solid var(--line); padding: clamp(20px, 5vw, 40px); }
-@media (min-width: 900px) {
-  .mv-block:nth-of-type(even) { margin-left: 64px; }          /* assimetria: blocos alternam o recuo */
-  .mv-block:nth-of-type(odd):not(.mv-dark) { margin-right: 64px; }
-}
-.mv-cover { background: var(--surface); border: none; border-left: 10px solid var(--terra); box-shadow: 10px 10px 0 var(--mustard); }
+.mv-cover { background: var(--surface); border: 1px solid var(--line); border-left: 10px solid var(--terra); border-bottom: 10px solid var(--mustard); }
 .mv-dark { background: var(--terra); border-color: var(--terra); color: var(--paper); }
 .mv-dark .mv-kicker, .mv-dark .mv-src, .mv-dark p { color: var(--paper); }
 .mv-dark .mv-src { border-top-color: var(--ink); }
@@ -220,7 +220,7 @@ footer { max-width: var(--wrap); margin: 0 auto; padding: var(--s5) var(--gutter
 .mv-eles::before { content: "Eles fazem"; background: var(--blue); }
 .mv-nos::before { content: "Nós respondemos"; background: var(--terra); }
 .mv-nos b { color: var(--mustard); }
-.mv-callout { margin: var(--s5) 0; padding: var(--s4) var(--s5); background: var(--mustard); color: var(--ink); box-shadow: -8px 8px 0 var(--terra); }
+.mv-callout { margin: var(--s5) 0; padding: var(--s4) var(--s5); background: var(--mustard); color: var(--ink); border-left: 8px solid var(--terra); }
 .mv-callout .mv-kicker { background: var(--ink) !important; color: var(--paper) !important; }
 .mv-note { font-size: .92rem !important; color: var(--muted); padding: var(--s3) var(--s4); background: var(--surface-2); border-left: 4px solid var(--blue); }
 .mv-legal { font-size: .92rem !important; padding: var(--s3) var(--s4); border: 2px solid var(--cool); }
