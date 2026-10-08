@@ -119,5 +119,35 @@
       "policia-federal"
     ],
     "share": "É FALSO que a PF revelou que Lula teve 36% dos votos em 2022. A PF negou, e o TSE registra 50,83% dos votos válidos (Lupa)."
+  },
+  {
+    "id": "chk-falas-lula-nordestinos",
+    "date": "2026-10-07",
+    "source": "Aos Fatos",
+    "verdict": "Falso",
+    "title": "\"Lula chamou nordestinos de analfabetos e disse que 'com R$ 10 compra um baiano'\"",
+    "summary": "As três frases atribuídas a Lula foram distorcidas ou inventadas. Na fala sobre analfabetismo, Lula defendia os eleitores do Nordeste e dizia que o país nunca teve um governo preocupado com educação. A frase dos 'R$ 10' foi tirada de uma entrevista de 2017 em que ele falava de transferência de renda. Não há registro público da terceira frase, sobre um 'grão de arroz'.",
+    "url": "https://aosfatos.org/noticias/falas-lula-nordestinos/",
+    "tags": [
+      "lula",
+      "nordeste",
+      "fala-inventada"
+    ],
+    "share": "É FALSO que Lula ofendeu nordestinos. As frases foram distorcidas ou inventadas. (Aos Fatos)"
+  },
+  {
+    "id": "chk-aviso-faltou-tse",
+    "date": "2026-10-07",
+    "source": "Aos Fatos",
+    "verdict": "Falso",
+    "title": "\"Aviso 'faltou' no site do TSE mostra que o voto não foi computado\"",
+    "summary": "Durante o processamento dos dados de comparecimento do 1º turno, o sistema de autoatendimento do TSE mostrou a mensagem 'faltou' para os eleitores. O TSE explicou que a mensagem não indicava se a pessoa votou ou não e trocou o texto por 'em processamento'. O aviso não tem relação com a contagem dos votos.",
+    "url": "https://www.aosfatos.org/noticias/aviso-faltou-tse-voto-computado/",
+    "tags": [
+      "tse",
+      "urnas",
+      "processo-eleitoral"
+    ],
+    "share": "É FALSO que o aviso 'faltou' no site do TSE significa que seu voto não contou. Foi uma mensagem provisória durante o processamento. (Aos Fatos)"
   }
 ]

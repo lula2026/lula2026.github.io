@@ -1,19 +1,5 @@
 [
   {
-    "id": "hoje-2026-10-04-1t",
-    "date": "2026-10-04",
-    "source": "Estado de Minas / Vermelho (apuração TSE)",
-    "title": "1º turno: diferença de ~2,3 milhões de votos. Tudo se decide em 25/10",
-    "summary": "Com 99,85% das urnas apuradas, Flávio tinha 47,06% dos votos válidos e Lula 45,12%. A diferença é pequena perto dos cerca de 33 milhões de eleitores que não foram votar. Confira o número final no site de resultados do TSE.",
-    "share": "A diferença no 1º turno foi de cerca de 2,3 milhões de votos. Mais de 30 milhões de pessoas não foram votar. Quem decide o 2º turno é quem aparece no dia 25/10. Bora votar!",
-    "url": "https://www.em.com.br/politica/platobr/2026/10/7515403-debates-apoios-e-olho-nas-abstencoes-os-planos-de-flavio-e-lula-para-o-2-turno.html",
-    "tags": [
-      "1º-turno",
-      "abstenção",
-      "2º-turno"
-    ]
-  },
-  {
     "id": "hoje-2026-10-05-abstencao",
     "date": "2026-10-05",
     "source": "Estado de Minas / Vermelho",
@@ -71,14 +57,13 @@
     "id": "hoje-2026-10-06-lula-governadores-nordeste-jn",
     "date": "2026-10-06",
     "source": "Metrópoles",
-    "title": "Lula almoça com governadores do Nordeste e se prepara para a entrevista ao JN",
-    "summary": "Na terça-feira (6), Lula recebeu no Alvorada os governadores Elmano de Freitas (CE), Rafael Fonteles (PI) e Jerônimo Rodrigues (BA) e os senadores Jaques Wagner e Camilo Santana. Os governadores avaliam que dá para aumentar a vantagem de Lula no Nordeste. A campanha também quer mobilizar os 33,4 milhões de eleitores que não votaram no 1º turno. A agenda prevê a entrevista ao Jornal Nacional em 8 ou 9 de outubro e o início das gravações do programa eleitoral na sexta (9).",
+    "title": "Lula almoça com governadores do Nordeste e reforça foco no voto da região",
+    "summary": "Na terça-feira (6), Lula recebeu no Alvorada os governadores Elmano de Freitas (CE), Rafael Fonteles (PI) e Jerônimo Rodrigues (BA) e os senadores Jaques Wagner e Camilo Santana. Os governadores avaliam que dá para aumentar a vantagem de Lula no Nordeste. A campanha também quer mobilizar os 33,4 milhões de eleitores que não votaram no 1º turno. Atualização: a Globo remarcou a entrevista de Lula, depois do Jornal Nacional, para 15/10 (Estado de Minas, 07/10).",
     "url": "https://www.metropoles.com/colunas/igor-gadelha/lula-almoca-com-petistas-do-nordeste-e-se-prepara-para-sabatina-do-jn",
     "tags": [
       "lula",
       "nordeste",
-      "governadores",
-      "jornal-nacional"
+      "governadores"
     ]
   },
   {
@@ -121,6 +106,71 @@
       "uniao-brasil",
       "pp",
       "alcolumbre"
+    ]
+  },
+  {
+    "id": "hoje-2026-10-07-globo-entrevistas-15-16",
+    "date": "2026-10-07",
+    "source": "Estado de Minas",
+    "title": "Globo marca entrevista de Lula para 15/10 e debate final para 23/10",
+    "summary": "A TV Globo definiu as entrevistas ao vivo com os candidatos do 2º turno, exibidas depois do Jornal Nacional: Lula em 15/10 (quinta) e Flávio Bolsonaro em 16/10 (sexta). A ordem foi definida por sorteio, e Renata Lo Prete conduz as duas entrevistas. O debate da Globo ficou para 23/10, com mediação de César Tralli, depois dos debates da Record (11/10) e da Band (18/10).",
+    "url": "https://www.em.com.br/politica/2026/10/7516773-globo-define-datas-de-entrevistas-com-lula-e-flavio-e-confirma-debate.html",
+    "tags": [
+      "agenda",
+      "jornal-nacional",
+      "debates"
+    ],
+    "share": "Anote: Lula será entrevistado na Globo, depois do Jornal Nacional, na quinta, 15/10. O debate final na Globo é em 23/10. (Estado de Minas)"
+  },
+  {
+    "id": "hoje-2026-10-07-lula-cobra-flavio-6x1",
+    "date": "2026-10-07",
+    "source": "O Tempo",
+    "title": "Lula desafia Flávio a votar pelo fim da escala 6x1",
+    "summary": "Em reunião com parlamentares de esquerda recém-eleitos, em Brasília, Lula voltou a cobrar do senador Flávio Bolsonaro uma posição sobre a PEC que acaba com a escala 6x1. \"Quero ver como Flávio Bolsonaro vai votar. Desafio a votar favorável e o PL\", disse o presidente. Lula também disse: \"Agora chegou a hora do povo saber a verdade\".",
+    "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/7/lula-volta-a-cobrar-flavio-bolsonaro-por-votacao-do-fim-da-escala-6x1",
+    "tags": [
+      "lula",
+      "escala-6x1",
+      "trabalho"
+    ],
+    "share": "Lula desafiou Flávio Bolsonaro e o PL a votar pelo fim da escala 6x1: \"Agora chegou a hora do povo saber a verdade\". (O Tempo)"
+  },
+  {
+    "id": "hoje-2026-10-07-republicanos-flavio-motta-lula",
+    "date": "2026-10-07",
+    "source": "Poder360",
+    "title": "Republicanos apoia Flávio; Hugo Motta segue com Lula",
+    "summary": "O Republicanos anunciou apoio a Flávio Bolsonaro no 2º turno, em evento com o governador Tarcísio de Freitas e o presidente do partido, Marcos Pereira. No 1º turno, o partido tinha ficado neutro. O presidente da Câmara, Hugo Motta (Republicanos-PB), não foi ao evento e mantém o apoio à reeleição de Lula.",
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/republicanos-define-apoio-a-flavio-no-2o-turno-contra-lula/",
+    "tags": [
+      "apoios",
+      "republicanos",
+      "hugo-motta"
+    ]
+  },
+  {
+    "id": "hoje-2026-10-08-podemos-flavio",
+    "date": "2026-10-08",
+    "source": "Poder360",
+    "title": "Podemos anuncia apoio a Flávio Bolsonaro no 2º turno",
+    "summary": "O Podemos declarou apoio oficial a Flávio Bolsonaro depois de uma reunião com a presidente do partido, Renata Abreu, na manhã de 08/10, em Brasília. Com isso, Flávio tem o apoio da federação União Brasil-PP, do Novo, do Republicanos e do Podemos. O PSD, partido de Ronaldo Caiado, segue neutro.",
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/podemos-anuncia-apoio-a-flavio-bolsonaro-no-2o-turno-das-eleicoes/",
+    "tags": [
+      "apoios",
+      "podemos"
+    ]
+  },
+  {
+    "id": "hoje-2026-10-08-poderdata-2-turno",
+    "date": "2026-10-08",
+    "source": "Poder360",
+    "title": "PoderData/Aya: Flávio tem 53% e Lula 47% dos votos válidos",
+    "summary": "Na primeira pesquisa PoderData/Aya do 2º turno, Flávio Bolsonaro tem 53% dos votos válidos e Lula, 47%. Foram 3.000 entrevistas em 705 municípios, de 5 a 7 de outubro, com margem de erro de 1,8 ponto percentual e confiança de 95%. A pesquisa está registrada no TSE sob o número BR-08134/2026.",
+    "url": "https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-poderdata-aya/",
+    "tags": [
+      "pesquisa",
+      "poderdata"
     ]
   }
 ]

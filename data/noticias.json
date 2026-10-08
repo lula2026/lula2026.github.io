@@ -116,5 +116,58 @@
       "datafolha",
       "segundo-turno"
     ]
+  },
+  {
+    "id": "noticia-2026-10-08-lula-videos-selfie-universidades",
+    "date": "2026-10-08",
+    "source": "Metrópoles",
+    "title": "Lula muda a comunicação no 2º turno: vídeos selfie e foco em jovens",
+    "summary": "A campanha de Lula aumentou a presença nas redes com vídeos em formato selfie. Num só dia da semana, foram publicados nove vídeos na conta oficial do presidente. Parlamentares como André Janones, Ana Elisa, Guilherme Cortez e Rosa Amorim ajudam na divulgação digital, e a campanha prevê agenda em universidades e escolas para falar com quem vota pela primeira vez. Num dos vídeos, Lula pede: \"É importante, neste segundo turno, você comparecer para votar\".",
+    "url": "https://metropoles.com/brasil/lula-adota-mudancas-para-o-2o-turno-na-tentativa-de-reverter-desvantagem",
+    "tags": [
+      "lula",
+      "campanha",
+      "redes-sociais",
+      "juventude"
+    ]
+  },
+  {
+    "id": "noticia-2026-10-08-partidos-apoios-2-turno",
+    "date": "2026-10-08",
+    "source": "O Tempo",
+    "title": "Os partidos que já declararam apoio no 2º turno",
+    "summary": "Lula mantém a coligação do 1º turno, formada por PT, PCdoB, PV, PSB, PDT, PSOL e Rede. Flávio tem o apoio de Republicanos, Novo, União Brasil, PP e Podemos. O PSD continua neutro, o MDB deixou os filiados livres para escolher e o PSDB ainda consulta os diretórios estaduais.",
+    "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/8/lula-x-flavio-bolsonaro-veja-quais-partidos-ja-declararam-apoio-no-segundo-turno",
+    "tags": [
+      "apoios",
+      "partidos",
+      "mdb",
+      "psb",
+      "pdt"
+    ]
+  },
+  {
+    "id": "noticia-2026-10-07-mdb-reuniao-flavio",
+    "date": "2026-10-07",
+    "source": "Metrópoles",
+    "title": "Flávio planeja reunião com o MDB, que deve manter liberação de filiados",
+    "summary": "Flávio Bolsonaro planeja se reunir na sexta-feira (9) com o presidente do MDB, Baleia Rossi, e outras lideranças do partido, em conversa articulada por Tarcísio de Freitas e Ricardo Nunes. Segundo a coluna, dificilmente o MDB vai fechar questão a favor do senador. O partido está dividido: lideranças do Norte e do Nordeste preferem Lula, e as do Sul e do Sudeste preferem Flávio.",
+    "url": "https://www.metropoles.com/colunas/igor-gadelha/flavio-recebera-apoio-do-podemos-na-quinta-e-planeja-reuniao-com-mdb",
+    "tags": [
+      "mdb",
+      "apoios"
+    ]
+  },
+  {
+    "id": "noticia-2026-10-08-alianca-286-deputados",
+    "date": "2026-10-08",
+    "source": "Exame",
+    "title": "Partidos que apoiam Flávio somam 286 deputados eleitos",
+    "summary": "PL, União Brasil, PP, Republicanos, Novo e Podemos elegeram juntos 286 deputados federais, ou 55,8% da nova Câmara. A matéria lembra que nem todo deputado desses partidos vota necessariamente com o governo e que uma emenda à Constituição precisa de 308 votos.",
+    "url": "https://exame.com/brasil/alianca-de-flavio-bolsonaro-pode-reunir-partidos-com-286-deputados-eleitos/",
+    "tags": [
+      "congresso",
+      "apoios"
+    ]
   }
 ]
