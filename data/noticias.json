@@ -1,5 +1,18 @@
 [
   {
+    "id": "not-2026-10-09-vox-2turno",
+    "date": "2026-10-09",
+    "source": "Exame",
+    "title": "Vox Brasil, 2º turno: Lula 44,2% x Flávio Bolsonaro 42,7%",
+    "summary": "Pesquisa Vox Brasil (registro BR-09623/2026), com 2.100 eleitores entrevistados presencialmente de 5 a 7/10, margem de 2,15 pontos: Lula tem 44,2% e Flávio Bolsonaro 42,7%. Brancos e nulos somam 3,4% e 9,7% não sabem ou não opinaram. A diferença está dentro da margem de erro; o instituto não divulgou votos válidos.",
+    "url": "https://exame.com/brasil/pesquisa-vox-brasil-lula-tem-442-e-flavio-bolsonaro-427-no-2o-turno/",
+    "tags": [
+      "pesquisa",
+      "2º turno"
+    ],
+    "share": "Vox Brasil (registro TSE BR-09623/2026): Lula 44,2% x Flávio 42,7%, margem de 2,15 pontos. Cada pesquisa mede um momento; o que decide é o voto em 25/10."
+  },
+  {
     "id": "not-2026-10-04-desconstruir",
     "date": "2026-10-04",
     "source": "O Tempo",
