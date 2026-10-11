@@ -1,5 +1,44 @@
 [
   {
+    "id": "hoje-2026-10-10-ipespe",
+    "date": "2026-10-10",
+    "source": "CNN Brasil",
+    "title": "Ipespe, 2º turno: Flávio 52,7% x Lula 47,3% dos votos válidos",
+    "summary": "Pesquisa Ipespe, com recursos do próprio instituto e registro BR-00933/2026 no TSE, ouviu 1.500 eleitores entre 6 e 8 de outubro. Nos votos válidos, Flávio Bolsonaro tem 52,7% e Lula 47,3%, com margem de 2,6 pontos para mais ou para menos. O levantamento não divulga o total de votos com brancos, nulos e indecisos.",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/ipespe-flavio-tem-527-dos-votos-validos-no-2o-turno-lula-473/",
+    "tags": [
+      "pesquisa",
+      "Ipespe",
+      "2º turno"
+    ]
+  },
+  {
+    "id": "hoje-2026-10-09-record-debate",
+    "date": "2026-10-09",
+    "source": "Exame",
+    "title": "Record cancela o debate de 11/10 entre Lula e Flávio por \"incompatibilidade de agendas\"",
+    "summary": "A Record cancelou o debate do 2º turno marcado para domingo (11/10), citando \"incompatibilidade de agendas dos candidatos\", sem dizer qual dos dois não conseguiu conciliar. A campanha de Lula afirmou que ele participaria; o entorno de Flávio Bolsonaro não confirmou presença. Seguem previstos debates em 15/10 (pool de emissoras), 18/10 (Band, 20h) e 23/10 (Globo).",
+    "url": "https://exame.com/brasil/record-cancela-debate-por-incompatibilidade-de-agenda-de-flavio-e-lula/",
+    "tags": [
+      "debate",
+      "2º turno",
+      "Record"
+    ]
+  },
+  {
+    "id": "hoje-2026-10-09-hgpe",
+    "date": "2026-10-09",
+    "source": "Diário do Grande ABC",
+    "title": "Propaganda eleitoral volta ao rádio e à TV: Lula fala em \"virar voto\" e cita risco de cortes",
+    "summary": "O horário eleitoral do 2º turno começou em 9/10 e vai até 23/10, com blocos no rádio às 7h e 12h e na TV às 13h e 20h30. Lula disse que é hora de \"virar voto\" e afirmou que um governo de Flávio poderia cortar programas como o Farmácia Popular. Flávio Bolsonaro exibiu apoios de Caiado, Zema e Tarcísio e disse que manterá Bolsa Família, Minha Casa, Minha Vida e Farmácia Popular.",
+    "url": "https://www.dgabc.com.br/Noticia/4351826/na-volta-da-propaganda-eleitoral-flavio-exalta-apoios-lula-cita-riscos-do-adversario",
+    "tags": [
+      "propaganda",
+      "2º turno",
+      "HGPE"
+    ]
+  },
+  {
     "id": "hoje-2026-10-09-atlas-2turno",
     "date": "2026-10-09",
     "source": "Exame",
