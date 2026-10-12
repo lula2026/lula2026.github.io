@@ -1,5 +1,42 @@
 [
   {
+    "id": "hoje-2026-10-08-datafolha-52-48",
+    "date": "2026-10-08",
+    "source": "Metrópoles / Datafolha",
+    "title": "Datafolha, 1ª pesquisa do 2º turno: Flávio 52% x Lula 48% nos votos válidos",
+    "summary": "Em votos totais, Flávio Bolsonaro tem 49% e Lula, 45%; brancos e nulos somam 5% e indecisos, 1%. O Datafolha ouviu 2.520 pessoas em 6 e 7 de outubro, com margem de 2 pontos e registro BR-02949/2026 no TSE. É a primeira pesquisa do instituto depois do 1º turno.",
+    "url": "https://www.metropoles.com/brasil/datafolha-2o-turno-flavio-tem-52-e-lula-48",
+    "tags": [
+      "pesquisa",
+      "datafolha",
+      "2º turno"
+    ]
+  },
+  {
+    "id": "hoje-2026-10-08-podemos-flavio",
+    "date": "2026-10-08",
+    "source": "Poder360",
+    "title": "Podemos anuncia apoio a Flávio Bolsonaro no 2º turno",
+    "summary": "O Podemos declarou apoio oficial a Flávio Bolsonaro depois de uma reunião com a presidente do partido, Renata Abreu, na manhã de 08/10, em Brasília. Com isso, Flávio tem o apoio da federação União Brasil-PP, do Novo, do Republicanos e do Podemos. O PSD, partido de Ronaldo Caiado, segue neutro.",
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/podemos-anuncia-apoio-a-flavio-bolsonaro-no-2o-turno-das-eleicoes/",
+    "tags": [
+      "apoios",
+      "podemos"
+    ]
+  },
+  {
+    "id": "hoje-2026-10-08-poderdata-2-turno",
+    "date": "2026-10-08",
+    "source": "Poder360",
+    "title": "PoderData/Aya: Flávio tem 53% e Lula 47% dos votos válidos",
+    "summary": "Na primeira pesquisa PoderData/Aya do 2º turno, Flávio Bolsonaro tem 53% dos votos válidos e Lula, 47%. Foram 3.000 entrevistas em 705 municípios, de 5 a 7 de outubro, com margem de erro de 1,8 ponto percentual e confiança de 95%. A pesquisa está registrada no TSE sob o número BR-08134/2026.",
+    "url": "https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-poderdata-aya/",
+    "tags": [
+      "pesquisa",
+      "poderdata"
+    ]
+  },
+  {
     "id": "arq-pt-confirma-candidatura",
     "date": "2026-08-03",
     "source": "BBC News Brasil (via O Povo)",
