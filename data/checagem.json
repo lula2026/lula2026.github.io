@@ -1,5 +1,20 @@
 [
   {
+    "id": "chk-urna-trocada-parnamirim",
+    "date": "2026-10-08",
+    "source": "Aos Fatos",
+    "verdict": "falso",
+    "title": "Vídeo mostraria urna trocada por outra já violada, com votos para Lula, em Parnamirim (RN)",
+    "summary": "O Aos Fatos classificou como falso. A urna foi substituída às 13h40 do dia da votação, na seção 393 da 50ª Zona Eleitoral, após falha na tela. O TRE-RN informou que a troca seguiu a Resolução TSE nº 23.751/2026 e que os votos já registrados foram recuperados do equipamento de contingência, sem perda ou alteração.",
+    "share": "É FALSO que vídeo mostre urna trocada por outra violada com votos para Lula no RN. Checagem do Aos Fatos: a urna teve falha na tela e foi trocada conforme a regra do TSE, sem perda de votos.",
+    "url": "https://www.aosfatos.org/noticias/urna-trocada-votos-lula-rn/",
+    "tags": [
+      "urnas",
+      "desinformação",
+      "TRE-RN"
+    ]
+  },
+  {
     "id": "chk-urnas-anular",
     "date": "2026-10-04",
     "source": "Agência Lupa",
