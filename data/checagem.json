@@ -1,5 +1,33 @@
 [
   {
+    "id": "chk-voto-prova-de-vida-inss",
+    "date": "2026-09-29",
+    "source": "Aos Fatos",
+    "title": "É falso que voto nas eleições não pode ser usado como prova de vida do INSS",
+    "summary": "A Aos Fatos rotulou como falsa a alegação. A partir de 2026, o INSS pode consultar dados do TSE sobre comparecimento dos beneficiários. Não votar não bloqueia o benefício automaticamente, e o segurado não precisa apresentar comprovante.",
+    "url": "https://aosfatos.org/noticias/falso-voto-eleicoes-prova-vida-inss/",
+    "verdict": "Falso",
+    "tags": [
+      "checagem",
+      "eleição",
+      "INSS"
+    ]
+  },
+  {
+    "id": "chk-tebet-toque-lula",
+    "date": "2026-10-01",
+    "source": "Aos Fatos",
+    "title": "Vídeo cortado faz parecer que Tebet criticou Lula por fala sobre pedofilia",
+    "summary": "A Aos Fatos rotulou como falso que Simone Tebet tenha criticado Lula. O vídeo original de Tebet, de 25/04/2026, trata de ataques de um assessor de Trump a brasileiras. A fala de Lula era sobre exames de próstata, sem relação com abuso infantil.",
+    "url": "https://aosfatos.org/noticias/simone-tebet-lula-tomar-toque/",
+    "verdict": "Falso",
+    "tags": [
+      "checagem",
+      "Lula",
+      "desinformação"
+    ]
+  },
+  {
     "id": "chk-urna-trocada-parnamirim",
     "date": "2026-10-08",
     "source": "Aos Fatos",
