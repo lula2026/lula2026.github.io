@@ -25,32 +25,5 @@
       "MEI",
       "2º turno"
     ]
-  },
-  {
-    "id": "hoje-2026-10-12-calendario-debates",
-    "date": "2026-10-10",
-    "source": "Jornal do Comércio",
-    "title": "Debates do 2º turno: 15/10 (Momento da Decisão), 18/10 (Band) e 23/10 (Globo)",
-    "summary": "Segundo o Jornal do Comércio, o debate da Record previsto para 11/10 foi cancelado por incompatibilidade de agendas. Estão previstos o encontro do grupo Momento da Decisão em 15/10, o da Band em 18/10 às 20h e o da TV Globo em 23/10, após o Jornal Nacional, com mediação de César Tralli. Regras e formato do debate da Band ainda estão em discussão. Em 6/10, Flávio Bolsonaro disse: \"Vou participar de debates. Eu acho que são importantes.\"",
-    "url": "https://www.jornaldocomercio.com/politica/2026/10/1266503-eleicoes-2026-veja-as-datas-dos-debates-entre-lula-e-flavio-bolsonaro-no-segundo-turno.html",
-    "tags": [
-      "debates",
-      "2º turno",
-      "agenda"
-    ],
-    "share": "Agenda dos debates do 2º turno: 15/10 (Momento da Decisão), 18/10 (Band, 20h) e 23/10 (Globo). O da Record, que seria dia 11, foi cancelado."
-  },
-  {
-    "id": "hoje-2026-10-10-ipespe",
-    "date": "2026-10-10",
-    "source": "CNN Brasil",
-    "title": "Ipespe, 2º turno: Flávio 52,7% x Lula 47,3% dos votos válidos",
-    "summary": "Pesquisa Ipespe, com recursos do próprio instituto e registro BR-00933/2026 no TSE, ouviu 1.500 eleitores entre 6 e 8 de outubro. Nos votos válidos, Flávio Bolsonaro tem 52,7% e Lula 47,3%, com margem de 2,6 pontos para mais ou para menos. O levantamento não divulga o total de votos com brancos, nulos e indecisos.",
-    "url": "https://www.cnnbrasil.com.br/eleicoes/ipespe-flavio-tem-527-dos-votos-validos-no-2o-turno-lula-473/",
-    "tags": [
-      "pesquisa",
-      "Ipespe",
-      "2º turno"
-    ]
   }
 ]
